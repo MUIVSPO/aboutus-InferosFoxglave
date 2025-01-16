@@ -1,0 +1,110 @@
+ body{
+   margin: 0%;
+ }
+ .intro {
+    display:flex;
+    flex-direction: row;
+    align-items: baseline;
+    background-color: rgb(84, 83, 108);
+    margin: 0%;
+    justify-content: space-around;
+ }
+
+h1{
+   
+   color: rgb(198, 217, 234);
+   margin: 0%;
+}
+.social-icon{
+   color: #000fe1;
+}
+.avatar { vertical-align: middle; width: 200px; height: 200px; border-radius: 50%;}
+
+a{
+   text-decoration: none;
+    color: rgb(198, 217, 234);
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+button{
+   background-color: #8a2be2; 
+   color: white; 
+   border: none; 
+   border-radius: 25px; 
+   width: 150px; 
+   height: 50px; 
+   font-size: 16px; 
+   font-weight: bold; 
+   cursor: pointer; 
+   transition: all 0.3s ease; 
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.contacts {
+   display: flex;
+   align-items: flex-end;
+}
+
+
+       
+
+        header {
+            background-color: rgb(84, 83, 108);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .portfolio {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .portfolio-item {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .portfolio-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .portfolio-item .description {
+            padding: 15px;
+        }
+
+        .portfolio-item h2 {
+            margin: 0 0 10px;
+            font-size: 1.2em;
+        }
+
+        .portfolio-item p {
+            margin: 0;
+            font-size: 0.9em;
+            color: #666;
+        }
+    
